@@ -1,0 +1,28 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio and Rider workspace files
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages and local tooling caches
+*.nupkg
+**/packages/*
+artifacts/
+
+# ASP.NET Core local secrets
+secrets.json
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Finder metadata
+.DS_Store
+
